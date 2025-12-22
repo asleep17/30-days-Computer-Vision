@@ -2,3 +2,7 @@ venv/
 .env
 _pycache_/
 *.pyc
+clf-data/
+cifar-10 data
+*.pkl
+*.p
