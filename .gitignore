@@ -1,8 +1,11 @@
 venv/
 .env
-_pycache_/
+__pycache__/
 *.pyc
 clf-data/
 cifar-10 data
 *.pkl
+*.png
+data.txt
+fer2013
 *.p

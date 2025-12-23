@@ -1,0 +1,14 @@
+# Ignore the dataset
+fer2013/
+data.txt
+
+# Ignore Python's temporary files
+__pycache__/
+*.pyc
+
+# Ignore Virtual Environments
+venv/
+env/
+
+# Ignore the heavy model file
+*.pkl

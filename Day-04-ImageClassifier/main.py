@@ -46,3 +46,8 @@ with open('model.p', 'wb') as f:
     pickle.dump(best_estimator, f)
 
 print("Model saved as model.p")
+from sklearn.metrics import classification_report
+
+# This prints the beautiful table with Precision, Recall, and F1-score
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=categories))
